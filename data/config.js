@@ -9,7 +9,7 @@ window.SITE_CONFIG = {
 
   // --- Liên hệ ---
   email:    "clb.usac@gmail.com",
-  fanpage:  "https://www.facebook.com/USAC.Astronomy",   // sửa lại đúng link fanpage
+  fanpage:  "https://www.facebook.com/clbusac",   // sửa lại đúng link fanpage
   zalo:     "",                                          // link/nhóm Zalo Q&A (nếu có)
   instagram:"",
 

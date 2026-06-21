@@ -1,14 +1,14 @@
 /* =====================================================================
-   i18n.js — SONG NGỮ VIỆT / ANH
+   i18n.js - SONG NGỮ VIỆT / ANH
    ---------------------------------------------------------------------
    Sửa chữ tĩnh của trang tại đây (mỗi khoá có 2 bản: vi và en).
    Nội dung động (thiết bị, CLB, hoạt động, hội đồng, đối tác) sửa trong
-   các file /data/*.js — mỗi trường viết dạng { vi: "...", en: "..." }.
+   các file /data/*.js - mỗi trường viết dạng { vi: "...", en: "..." }.
    ===================================================================== */
 
 window.I18N = {
   vi: {
-    "doc.title": "Tiếp cận Bầu trời — CLB Thiên văn USAC",
+    "doc.title": "Tiếp cận Bầu trời - CLB Thiên văn USAC",
     "lang.name": "Tiếng Việt",
 
     "chooser.title": "Chào mừng đến với<br><i>Tiếp cận Bầu trời</i>",
@@ -27,7 +27,7 @@ window.I18N = {
 
     "hero.tag": "Chương trình cho mượn thiết bị thiên văn · 2026",
     "hero.title": 'Đưa kính thiên văn đến <span class="glow">mọi mái trường</span>.',
-    "hero.lead": "Rào cản lớn nhất giữa học sinh và bầu trời không phải đam mê — mà là sự tiếp cận. \"Tiếp cận Bầu trời\" cho các Câu lạc bộ Khoa học cấp THPT mượn kính quan sát theo cơ chế minh bạch, có trách nhiệm và bền vững.",
+    "hero.lead": "Rào cản lớn nhất giữa học sinh và bầu trời không phải đam mê - mà là sự tiếp cận. \"Tiếp cận Bầu trời\" cho các Câu lạc bộ Khoa học cấp THPT mượn kính quan sát theo cơ chế minh bạch, có trách nhiệm và bền vững.",
     "hero.cta1": "Đăng ký cho CLB của bạn",
     "hero.cta2": "Tìm hiểu chương trình",
     "hero.s1": "năm hoạt động của USAC",
@@ -37,18 +37,18 @@ window.I18N = {
 
     "manifesto.eyebrow": "Vì sao có chương trình này",
     "manifesto.quote": "Khoa học trở nên ý nghĩa nhất khi bất kỳ ai cũng có cơ hội được trải nghiệm nó.",
-    "manifesto.p1": "Với nhiều học sinh, thiên văn học mới chỉ bắt đầu từ những trang sách, lớp học hay qua các video trên mạng. Các em được học về Mặt Trăng, các hành tinh và những thiên hà xa xôi — nhưng hiếm khi có cơ hội được tận mắt chiêm ngưỡng chúng.",
+    "manifesto.p1": "Với nhiều học sinh, thiên văn học mới chỉ bắt đầu từ những trang sách, lớp học hay qua các video trên mạng. Các em được học về Mặt Trăng, các hành tinh và những thiên hà xa xôi - nhưng hiếm khi có cơ hội được tận mắt chiêm ngưỡng chúng.",
     "manifesto.p2": "Rào cản ở đây chưa bao giờ là sự tò mò. Rào cản lớn nhất chính là <strong>sự tiếp cận</strong>.",
     "manifesto.p3": "Tại USAC, chúng tôi tin rằng điều kiện vật chất không nên là yếu tố quyết định ai mới là người có quyền khám phá Vũ trụ. Niềm tin đó đã khơi nguồn cho chương trình \"Tiếp cận Bầu trời\".",
     "manifesto.p4": "Đối với chúng tôi, kính thiên văn không đơn thuần là một công cụ. Nó là cánh cửa mở ra sự tò mò. Thay vì phục vụ cố định cho một tổ chức đơn lẻ, mỗi chiếc kính có thể dịch chuyển từ cộng đồng này sang cộng đồng khác, đồng hành cùng vô số đêm quan sát và truyền cảm hứng cho hàng trăm học sinh.",
-    "manifesto.p5": "Bởi tương lai của thiên văn học không chỉ được định hình trong các đài quan sát hay phòng thí nghiệm. Nó còn bắt đầu ngay tại sân trường, dưới những bầu trời đêm lộng gió — nơi một học sinh lần đầu nhìn qua kính và nhận ra: Vũ trụ là điều các em hoàn toàn có thể tự mình khám phá.",
+    "manifesto.p5": "Bởi tương lai của thiên văn học không chỉ được định hình trong các đài quan sát hay phòng thí nghiệm. Nó còn bắt đầu ngay tại sân trường, dưới những bầu trời đêm lộng gió - nơi một học sinh lần đầu nhìn qua kính và nhận ra: Vũ trụ là điều các em hoàn toàn có thể tự mình khám phá.",
     "manifesto.tagline": "Mở rộng lối đi. Khơi nguồn khám phá.",
 
     "program.eyebrow": "Mục đích & Ý nghĩa",
     "program.title": "Một mô hình chia sẻ thiết bị, không phải trao tặng.",
     "program.p1": "Thiên văn học có sức hấp dẫn tự nhiên rất mạnh với học sinh trung học, nhưng một chiếc kính đủ chuẩn để quan sát nằm ngoài ngân sách của hầu hết CLB phổ thông.",
-    "program.p2": "Thay vì <strong>trao tặng hoàn toàn</strong> (dễ thiếu trách nhiệm gìn giữ) hay <strong>cho thuê thương mại</strong> (ngoài tầm với của CLB học sinh), USAC chọn mô hình <strong>\"cho mượn có điều kiện\"</strong> — tạo trách nhiệm cao nhất từ đơn vị tiếp nhận, đồng thời giữ thiết bị luôn được dùng đúng mục đích giáo dục.",
-    "program.p3": "Mục tiêu tổng quát: xây dựng và vận hành hệ thống cho mượn thiết bị có cơ chế quản lý minh bạch, trách nhiệm, bền vững — thúc đẩy phong trào học tập và nghiên cứu khoa học trong giới học sinh phổ thông.",
+    "program.p2": "Thay vì <strong>trao tặng hoàn toàn</strong> (dễ thiếu trách nhiệm gìn giữ) hay <strong>cho thuê thương mại</strong> (ngoài tầm với của CLB học sinh), USAC chọn mô hình <strong>\"cho mượn có điều kiện\"</strong> - tạo trách nhiệm cao nhất từ đơn vị tiếp nhận, đồng thời giữ thiết bị luôn được dùng đúng mục đích giáo dục.",
+    "program.p3": "Mục tiêu tổng quát: xây dựng và vận hành hệ thống cho mượn thiết bị có cơ chế quản lý minh bạch, trách nhiệm, bền vững - thúc đẩy phong trào học tập và nghiên cứu khoa học trong giới học sinh phổ thông.",
     "program.callout.eyebrow": "Giá trị cốt lõi",
     "program.callout.quote": "\"Khoảng cách giữa học sinh và bầu trời là khoảng cách có thể thu hẹp.\"",
     "program.callout.h": "Cam kết của chương trình",
@@ -76,10 +76,10 @@ window.I18N = {
 
     "usac.eyebrow": "USAC là ai?",
     "usac.title": "Câu lạc bộ Thiên văn USAC",
-    "usac.p": "Trực thuộc Khoa Vật lý – Vật lý Kỹ thuật, Trường ĐH Khoa học Tự nhiên, ĐHQG-HCM. Với gần 10 năm hoạt động, USAC là đầu mối kết nối cộng đồng thiên văn học thuật – nghiệp dư tại Việt Nam, và đang tự xây dựng mạng lưới hợp tác với các CLB cấp THPT trên cả nước.",
-    "usac.b1": "Phục hồi & căn chỉnh kính khúc xạ",
-    "usac.b2": "Kính phản xạ",
-    "usac.b3": "Dobsonian",
+    "usac.p": "Trực thuộc Khoa Vật lý – Vật lý kỹ thuật, Trường ĐH Khoa học Tự nhiên, ĐHQG-HCM. Với gần 10 năm hoạt động, USAC là đầu mối kết nối cộng đồng thiên văn học thuật – nghiệp dư tại Việt Nam, và đang tự xây dựng mạng lưới hợp tác với các CLB cấp THPT trên cả nước.",
+    "usac.b1": "Đơn vị liên kết với VAS",
+    "usac.b2": "Kính Thiên văn",
+    "usac.b3": "Nghiên cứu Thiên văn học",
     "usac.b4": "Thành viên mạng lưới VAAN",
     "usac.b5": "Hợp tác THPT & viện nghiên cứu",
     "usac.f1": "workshop, seminar, đêm quan sát đã tổ chức",
@@ -103,7 +103,7 @@ window.I18N = {
     "clubs.eyebrow": "Mạng lưới CLB",
     "clubs.title": "Các CLB đã tham gia chương trình.",
     "clubs.sub": "Những Câu lạc bộ Khoa học cấp THPT đang cùng USAC vận hành các \"Trạm quan sát vệ tinh\".",
-    "clubs.empty": "Chưa có CLB nào — danh sách sẽ cập nhật khi chương trình khởi động.",
+    "clubs.empty": "Chưa có CLB nào - danh sách sẽ cập nhật khi chương trình khởi động.",
     "clubs.k.area": "Khu vực", "clubs.k.cycle": "Chu kỳ", "clubs.k.equip": "Thiết bị", "clubs.k.members": "Thành viên",
     "clubs.active": "Đang đồng hành", "clubs.alumni": "Đã hoàn thành chu kỳ",
 
@@ -116,9 +116,9 @@ window.I18N = {
 
     "council.eyebrow": "Hội đồng thẩm định hồ sơ",
     "council.title": "Bảy thành viên đứng sau mỗi quyết định.",
-    "council.sub": "Hội đồng gồm 2 nhóm chức năng: Lãnh đạo & Nội dung, và Ban Kỹ thuật — đảm bảo mỗi Proposal được thẩm định cả về chuyên môn thiên văn lẫn năng lực vận hành thiết bị.",
-    "council.g1": "Nhóm I — Lãnh đạo Hội đồng & Thẩm định Nội dung",
-    "council.g2": "Nhóm II — Hội đồng Ban Kỹ thuật",
+    "council.sub": "Hội đồng gồm 2 nhóm chức năng: Lãnh đạo & Nội dung, và Ban Kỹ thuật - đảm bảo mỗi Proposal được thẩm định cả về chuyên môn thiên văn lẫn năng lực vận hành thiết bị.",
+    "council.g1": "Nhóm I - Lãnh đạo Hội đồng & Thẩm định Nội dung",
+    "council.g2": "Nhóm II - Hội đồng Ban Kỹ thuật",
 
     "partners.eyebrow": "Đồng hành cùng USAC",
     "partners.title": "Các đơn vị đầu tư & bảo trợ thiết bị.",
@@ -141,7 +141,7 @@ window.I18N = {
     "contact.btn1": "Tải Proposal mẫu", "contact.btn2": "Gửi email",
 
     "footer.tagline": "Chương trình cho mượn thiết bị thiên văn",
-    "footer.desc": "CLB Thiên văn USAC — Khoa Vật lý – Vật lý Kỹ thuật, Trường ĐH Khoa học Tự nhiên, ĐHQG-HCM. Thành viên Mạng lưới Thiên văn Nghiệp dư Việt Nam (VAAN).",
+    "footer.desc": "CLB Thiên văn USAC - Khoa Vật lý – Vật lý Kỹ thuật, Trường ĐH Khoa học Tự nhiên, ĐHQG-HCM. Thành viên Mạng lưới Thiên văn Nghiệp dư Việt Nam (VAAN).",
     "footer.explore": "Khám phá",
     "footer.contact": "Liên hệ",
     "footer.l.email": "Email chương trình", "footer.l.fanpage": "Fanpage USAC", "footer.l.proposal": "Tải Proposal mẫu",
@@ -150,7 +150,7 @@ window.I18N = {
   },
 
   en: {
-    "doc.title": "Reaching the Sky — USAC Astronomy Club",
+    "doc.title": "Reaching the Sky - USAC Astronomy Club",
     "lang.name": "English",
 
     "chooser.title": "Welcome to<br><i>Reaching the Sky</i>",
@@ -169,7 +169,7 @@ window.I18N = {
 
     "hero.tag": "Astronomy equipment lending program · 2026",
     "hero.title": 'Bringing telescopes to <span class="glow">every school</span>.',
-    "hero.lead": "The biggest barrier between students and the sky has never been curiosity — it is access. \"Reaching the Sky\" lends observation equipment to high-school science clubs through a transparent, accountable and sustainable model.",
+    "hero.lead": "The biggest barrier between students and the sky has never been curiosity - it is access. \"Reaching the Sky\" lends observation equipment to high-school science clubs through a transparent, accountable and sustainable model.",
     "hero.cta1": "Apply for your club",
     "hero.cta2": "About the program",
     "hero.s1": "years of USAC activity",
@@ -179,18 +179,18 @@ window.I18N = {
 
     "manifesto.eyebrow": "Why this program exists",
     "manifesto.quote": "Science is most meaningful when anyone has the chance to experience it.",
-    "manifesto.p1": "For many students, astronomy begins only on the page, in the classroom, or through videos online. They learn about the Moon, the planets and distant galaxies — yet rarely get to see them with their own eyes.",
+    "manifesto.p1": "For many students, astronomy begins only on the page, in the classroom, or through videos online. They learn about the Moon, the planets and distant galaxies - yet rarely get to see them with their own eyes.",
     "manifesto.p2": "The barrier here has never been curiosity. The greatest barrier is <strong>access</strong>.",
     "manifesto.p3": "At USAC, we believe material conditions should never decide who gets to explore the Universe. That belief sparked the \"Reaching the Sky\" program.",
     "manifesto.p4": "To us, a telescope is not merely a tool. It is a door that opens onto curiosity. Rather than serving one fixed organization, each telescope can travel from one community to the next, accompanying countless observation nights and inspiring hundreds of students.",
-    "manifesto.p5": "Because the future of astronomy is not shaped only inside observatories and research labs. It also begins in schoolyards, under open night skies — where a student looks through a telescope for the first time and realizes: the Universe is something they can explore for themselves.",
+    "manifesto.p5": "Because the future of astronomy is not shaped only inside observatories and research labs. It also begins in schoolyards, under open night skies - where a student looks through a telescope for the first time and realizes: the Universe is something they can explore for themselves.",
     "manifesto.tagline": "Widening the path. Sparking discovery.",
 
     "program.eyebrow": "Purpose & Meaning",
-    "program.title": "A model for sharing equipment — not giving it away.",
+    "program.title": "A model for sharing equipment - not giving it away.",
     "program.p1": "Astronomy holds a powerful natural appeal for secondary students, yet a telescope good enough for real observation sits well beyond the budget of most school clubs.",
-    "program.p2": "Instead of <strong>outright donation</strong> (which can weaken the sense of care) or <strong>commercial rental</strong> (out of reach for student clubs), USAC chose a <strong>\"conditional lending\"</strong> model — creating the highest accountability from the receiving club while keeping every device used for its educational purpose.",
-    "program.p3": "Overall goal: to build and operate an equipment-lending system with transparent, accountable and sustainable management — advancing scientific learning and research among secondary students.",
+    "program.p2": "Instead of <strong>outright donation</strong> (which can weaken the sense of care) or <strong>commercial rental</strong> (out of reach for student clubs), USAC chose a <strong>\"conditional lending\"</strong> model - creating the highest accountability from the receiving club while keeping every device used for its educational purpose.",
+    "program.p3": "Overall goal: to build and operate an equipment-lending system with transparent, accountable and sustainable management - advancing scientific learning and research among secondary students.",
     "program.callout.eyebrow": "Core value",
     "program.callout.quote": "\"The distance between a student and the sky is a distance we can close.\"",
     "program.callout.h": "Program commitments",
@@ -245,7 +245,7 @@ window.I18N = {
     "clubs.eyebrow": "Club network",
     "clubs.title": "Clubs already in the program.",
     "clubs.sub": "High-school science clubs running USAC \"satellite observation stations\" together with us.",
-    "clubs.empty": "No clubs yet — the list will update once the program launches.",
+    "clubs.empty": "No clubs yet - the list will update once the program launches.",
     "clubs.k.area": "Area", "clubs.k.cycle": "Cycle", "clubs.k.equip": "Equipment", "clubs.k.members": "Members",
     "clubs.active": "Active partner", "clubs.alumni": "Completed cycle",
 
@@ -258,13 +258,13 @@ window.I18N = {
 
     "council.eyebrow": "Proposal review council",
     "council.title": "Seven members behind every decision.",
-    "council.sub": "The council has two functional groups: Leadership & Content, and the Technical Board — ensuring each proposal is assessed for both astronomy expertise and equipment-handling capacity.",
-    "council.g1": "Group I — Council Leadership & Content Review",
-    "council.g2": "Group II — Technical Board",
+    "council.sub": "The council has two functional groups: Leadership & Content, and the Technical Board - ensuring each proposal is assessed for both astronomy expertise and equipment-handling capacity.",
+    "council.g1": "Group I - Council Leadership & Content Review",
+    "council.g2": "Group II - Technical Board",
 
     "partners.eyebrow": "Alongside USAC",
     "partners.title": "Units investing in & sponsoring equipment.",
-    "partners.sub": "Every telescope that reaches a student is the result of many hands — professional networks and sponsors.",
+    "partners.sub": "Every telescope that reaches a student is the result of many hands - professional networks and sponsors.",
 
     "contact.eyebrow": "Apply now",
     "contact.title": "Your club could be next.",
@@ -283,7 +283,7 @@ window.I18N = {
     "contact.btn1": "Download proposal template", "contact.btn2": "Send email",
 
     "footer.tagline": "Astronomy equipment lending program",
-    "footer.desc": "USAC Astronomy Club — Faculty of Physics – Engineering Physics, University of Science, VNU-HCM. Member of the Vietnam Amateur Astronomy Network (VAAN).",
+    "footer.desc": "USAC Astronomy Club - Faculty of Physics – Engineering Physics, University of Science, VNU-HCM. Member of the Vietnam Amateur Astronomy Network (VAAN).",
     "footer.explore": "Explore",
     "footer.contact": "Contact",
     "footer.l.email": "Program email", "footer.l.fanpage": "USAC fanpage", "footer.l.proposal": "Proposal template",
