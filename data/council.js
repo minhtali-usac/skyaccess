@@ -27,7 +27,7 @@ window.DATA_COUNCIL = [
     photo: "assets/images/council/6.png",
     duty: {
       vi: "Điều hành họp khi Chủ tịch vắng mặt; đại diện USAC ký kết MOU và biên bản bàn giao; chủ trì đánh giá chuyên môn thiên văn; đầu mối liên lạc với các CLB.",
-      en: "Runs meetings in the Chair's absence; signs MOUs and handover records for USAC; leads astronomy expertise review; main liaison with the clubs."
+      en: "Runs meetings in the Chair's absence; signs MOU and handover records for USAC; leads astronomy expertise review; main liaison with the clubs."
     }
   },
   {
@@ -68,7 +68,7 @@ window.DATA_COUNCIL = [
     title: { vi: "Phó Ban Kỹ thuật", en: "Deputy Head, Technical Board" },
     role: { vi: "Ủy viên Kỹ thuật – Giám sát sau bàn giao", en: "Technical member – Post-handover monitoring" },
     group: "ky-thuat",
-    photo: "assets/images/council/8.png",
+    photo: "assets/images/council/7.png",
     duty: {
       vi: "Thẩm định năng lực vận hành; tổng hợp thông tin sự kiện của CLB để lập báo cáo giám sát định kỳ; hỗ trợ kỹ thuật từ xa.",
       en: "Assesses operating capacity; compiles club event data for periodic monitoring reports; provides remote technical support."
@@ -79,7 +79,7 @@ window.DATA_COUNCIL = [
     title: { vi: "Phó Ban Kỹ thuật", en: "Deputy Head, Technical Board" },
     role: { vi: "Ủy viên Kỹ thuật – Giám sát sau bàn giao", en: "Technical member – Post-handover monitoring" },
     group: "ky-thuat",
-    photo: "assets/images/council/07.png",
+    photo: "assets/images/council/8.png",
     duty: {
       vi: "Thẩm định điều kiện bảo quản; cập nhật dữ liệu giám sát liên tục; hỗ trợ kỹ thuật tại chỗ trong các đợt bàn giao và tập huấn.",
       en: "Assesses storage conditions; keeps monitoring data up to date; provides on-site technical support during handovers and training."
