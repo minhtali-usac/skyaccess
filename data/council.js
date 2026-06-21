@@ -84,7 +84,7 @@ window.DATA_COUNCIL = [
       vi: "Thẩm định điều kiện bảo quản; cập nhật dữ liệu giám sát liên tục; hỗ trợ kỹ thuật tại chỗ trong các đợt bàn giao và tập huấn.",
       en: "Assesses storage conditions; keeps monitoring data up to date; provides on-site technical support during handovers and training."
     }
-  }
+  },
    {
     name: "Cao Nguyễn Bảo Trân",
     title: { vi: "Phó Ban Kỹ thuật", en: "Deputy Head, Technical Board" },
@@ -95,7 +95,7 @@ window.DATA_COUNCIL = [
       vi: "Thẩm định điều kiện bảo quản; cập nhật dữ liệu giám sát liên tục; hỗ trợ kỹ thuật tại chỗ trong các đợt bàn giao và tập huấn.",
       en: "Assesses storage conditions; keeps monitoring data up to date; provides on-site technical support during handovers and training."
     }
-  }
+  },
    {
     name: "Nguyễn Thành Nghĩa",
     title: { vi: "Phó Ban Kỹ thuật", en: "Deputy Head, Technical Board" },
