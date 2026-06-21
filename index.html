@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Tiếp cận Bầu trời — CLB Thiên văn USAC</title>
+  <meta name="description" content="Chương trình cho mượn thiết bị quan sát thiên văn dành cho các Câu lạc bộ Khoa học cấp THPT, do CLB Thiên văn USAC tổ chức." />
+  <meta name="theme-color" content="#0B1026" />
+  <meta property="og:title" content="Tiếp cận Bầu trời — Reaching the Sky" />
+  <meta property="og:description" content="Cho mượn thiết bị quan sát thiên văn dành cho CLB Khoa học cấp THPT." />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500;1,600&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <canvas id="starfield"></canvas>
+
+  <!-- ============ BỘ CHỌN NGÔN NGỮ (hiện ở lần truy cập đầu) ============ -->
+  <div class="chooser" id="chooser" aria-hidden="true">
+    <div class="chooser-box">
+      <div class="chooser-star">✦</div>
+      <h2 data-i18n="chooser.title">Chào mừng</h2>
+      <p data-i18n="chooser.sub">Chọn ngôn ngữ · Choose your language</p>
+      <div class="chooser-actions">
+        <button class="btn btn-primary" onclick="setLang('vi');hideChooser()">Tiếng Việt</button>
+        <button class="btn btn-ghost" onclick="setLang('en');hideChooser()">English</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= NAV ================= -->
+  <nav class="nav" id="nav">
+    <a class="nav-brand" href="#top">
+      <span data-logo-program data-style="width:38px;height:38px;object-fit:contain;border-radius:8px"><span class="bx">★</span></span>
+      <span>
+        <b>Tiếp cận Bầu trời</b>
+        <span>CLB Thiên văn USAC</span>
+      </span>
+    </a>
+    <div class="nav-links">
+      <a href="#chuong-trinh" data-i18n="nav.program">Chương trình</a>
+      <a href="#usac" data-i18n="nav.usac">USAC &amp; Thiết bị</a>
+      <a href="#tham-gia" data-i18n="nav.process">Quy trình</a>
+      <a href="#clb" data-i18n="nav.clubs">CLB đồng hành</a>
+      <a href="#hoat-dong" data-i18n="nav.activities">Hoạt động</a>
+      <a href="#hoi-dong" data-i18n="nav.council">Hội đồng</a>
+      <a href="#doi-tac" data-i18n="nav.partners">Đối tác</a>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <button data-lang-btn="vi" onclick="setLang('vi')">VI</button>
+        <button data-lang-btn="en" onclick="setLang('en')">EN</button>
+      </div>
+      <a class="btn btn-primary nav-cta" href="#lien-he" data-i18n="nav.cta">Đăng ký tham gia</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+
+  <div class="page" id="top">
+
+    <!-- ================= HERO ================= -->
+    <header class="hero">
+      <div class="hero-grid"></div>
+      <div class="container">
+        <span class="hero-tag"><span class="dot"></span> <span data-i18n="hero.tag">Chương trình</span></span>
+        <h1 data-i18n="hero.title">Đưa kính thiên văn đến <span class="glow">mọi mái trường</span>.</h1>
+        <p class="hero-lead" data-i18n="hero.lead"></p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#lien-he" data-i18n="hero.cta1">Đăng ký</a>
+          <a class="btn btn-ghost" href="#chuong-trinh" data-i18n="hero.cta2">Tìm hiểu</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><div class="num">~10</div><div class="lbl" data-i18n="hero.s1"></div></div>
+          <div class="stat"><div class="num">100+</div><div class="lbl" data-i18n="hero.s2"></div></div>
+          <div class="stat"><div class="num">50.000+</div><div class="lbl" data-i18n="hero.s3"></div></div>
+          <div class="stat"><div class="num">5–15tr</div><div class="lbl" data-i18n="hero.s4"></div></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= TUYÊN NGÔN / MANIFESTO ================= -->
+    <section id="tuyen-ngon" class="manifesto">
+      <div class="container">
+        <span class="eyebrow" data-i18n="manifesto.eyebrow"></span>
+        <p class="manifesto-quote" data-i18n="manifesto.quote"></p>
+        <div class="manifesto-body">
+          <p data-i18n="manifesto.p1"></p>
+          <p data-i18n="manifesto.p2"></p>
+          <p data-i18n="manifesto.p3"></p>
+          <p data-i18n="manifesto.p4"></p>
+          <p data-i18n="manifesto.p5"></p>
+        </div>
+        <div class="manifesto-tagline" data-i18n="manifesto.tagline"></div>
+      </div>
+    </section>
+
+    <!-- ================= CHƯƠNG TRÌNH ================= -->
+    <section id="chuong-trinh" class="section-alt">
+      <div class="container">
+        <div class="lead-row">
+          <div>
+            <span class="eyebrow" data-i18n="program.eyebrow"></span>
+            <div class="section-head" style="margin-bottom:24px"><h2 data-i18n="program.title"></h2></div>
+            <div class="prose">
+              <p data-i18n="program.p1"></p>
+              <p data-i18n="program.p2"></p>
+              <p data-i18n="program.p3"></p>
+            </div>
+          </div>
+          <aside class="callout">
+            <span class="eyebrow" data-i18n="program.callout.eyebrow"></span>
+            <p class="q" style="margin-top:14px" data-i18n="program.callout.quote"></p>
+            <h3 style="margin-bottom:12px" data-i18n="program.callout.h"></h3>
+            <ul>
+              <li data-i18n="program.callout.l1"></li>
+              <li data-i18n="program.callout.l2"></li>
+              <li data-i18n="program.callout.l3"></li>
+              <li data-i18n="program.callout.l4"></li>
+            </ul>
+          </aside>
+        </div>
+
+        <div style="margin-top:72px">
+          <span class="eyebrow" data-i18n="goals.eyebrow"></span>
+          <div class="goals">
+            <div class="goal reveal"><div class="ix"><span data-i18n="goals.ix"></span> 01</div><h4 data-i18n="goals.g1.t"></h4><p data-i18n="goals.g1.d"></p></div>
+            <div class="goal reveal"><div class="ix"><span data-i18n="goals.ix"></span> 02</div><h4 data-i18n="goals.g2.t"></h4><p data-i18n="goals.g2.d"></p></div>
+            <div class="goal reveal"><div class="ix"><span data-i18n="goals.ix"></span> 03</div><h4 data-i18n="goals.g3.t"></h4><p data-i18n="goals.g3.d"></p></div>
+            <div class="goal reveal"><div class="ix"><span data-i18n="goals.ix"></span> 04</div><h4 data-i18n="goals.g4.t"></h4><p data-i18n="goals.g4.d"></p></div>
+            <div class="goal reveal"><div class="ix"><span data-i18n="goals.ix"></span> 05</div><h4 data-i18n="goals.g5.t"></h4><p data-i18n="goals.g5.d"></p></div>
+            <div class="goal reveal"><div class="ix"><span data-i18n="goals.ix"></span> 06</div><h4 data-i18n="goals.g6.t"></h4><p data-i18n="goals.g6.d"></p></div>
+          </div>
+        </div>
+
+        <div style="margin-top:64px">
+          <span class="eyebrow" data-i18n="kpi.eyebrow"></span>
+          <div class="kpi" style="margin-top:24px">
+            <div class="kpi-row head"><span class="n">#</span><span class="k" data-i18n="kpi.head.k"></span><span class="v" data-i18n="kpi.head.v"></span></div>
+            <div class="kpi-row reveal"><span class="n">1</span><span class="k" data-i18n="kpi.r1"></span><span class="v">≥ 2</span></div>
+            <div class="kpi-row reveal"><span class="n">2</span><span class="k" data-i18n="kpi.r2"></span><span class="v">≥ 80%</span></div>
+            <div class="kpi-row reveal"><span class="n">3</span><span class="k" data-i18n="kpi.r3"></span><span class="v">≥ 8</span></div>
+            <div class="kpi-row reveal"><span class="n">4</span><span class="k" data-i18n="kpi.r4"></span><span class="v">≥ 500</span></div>
+            <div class="kpi-row reveal"><span class="n">5</span><span class="k" data-i18n="kpi.r5"></span><span class="v">≥ 2</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= USAC & THIẾT BỊ ================= -->
+    <section id="usac">
+      <div class="container">
+        <div class="usac-row">
+          <div>
+            <span class="eyebrow" data-i18n="usac.eyebrow"></span>
+            <div class="section-head" style="margin-bottom:20px"><h2 data-i18n="usac.title"></h2></div>
+            <p style="color:var(--muted);font-size:1.05rem;margin-bottom:16px" data-i18n="usac.p"></p>
+            <div class="usac-badges">
+              <span class="badge" data-i18n="usac.b1"></span>
+              <span class="badge" data-i18n="usac.b2"></span>
+              <span class="badge" data-i18n="usac.b3"></span>
+              <span class="badge" data-i18n="usac.b4"></span>
+              <span class="badge" data-i18n="usac.b5"></span>
+            </div>
+          </div>
+          <div class="usac-figures">
+            <div class="fig reveal"><div class="b">100+</div><div class="s" data-i18n="usac.f1"></div></div>
+            <div class="fig reveal"><div class="b">50.000+</div><div class="s" data-i18n="usac.f2"></div></div>
+            <div class="fig reveal"><div class="b">~10</div><div class="s" data-i18n="usac.f3"></div></div>
+            <div class="fig reveal"><div class="b">VAAN</div><div class="s" data-i18n="usac.f4"></div></div>
+          </div>
+        </div>
+
+        <div style="margin-top:80px">
+          <span class="eyebrow" data-i18n="equip.eyebrow"></span>
+          <div class="section-head" style="margin:16px 0 0">
+            <h2 data-i18n="equip.title"></h2>
+            <p data-i18n="equip.sub"></p>
+          </div>
+          <div class="equip-grid" id="equipGrid"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= QUY TRÌNH ================= -->
+    <section id="tham-gia" class="section-alt">
+      <div class="container">
+        <span class="eyebrow" data-i18n="process.eyebrow"></span>
+        <div class="section-head">
+          <h2 data-i18n="process.title"></h2>
+          <p data-i18n="process.sub"></p>
+        </div>
+        <div class="timeline">
+          <div class="step reveal"><div class="marker">1</div><div class="c"><h4><span data-i18n="process.s1.t"></span> <span class="when" data-i18n="process.s1.w"></span></h4><p data-i18n="process.s1.d"></p></div></div>
+          <div class="step reveal"><div class="marker">2</div><div class="c"><h4><span data-i18n="process.s2.t"></span> <span class="when" data-i18n="process.s2.w"></span></h4><p data-i18n="process.s2.d"></p></div></div>
+          <div class="step reveal"><div class="marker">3</div><div class="c"><h4><span data-i18n="process.s3.t"></span> <span class="when" data-i18n="process.s3.w"></span></h4><p data-i18n="process.s3.d"></p></div></div>
+          <div class="step reveal"><div class="marker">4</div><div class="c"><h4><span data-i18n="process.s4.t"></span> <span class="when" data-i18n="process.s4.w"></span></h4><p data-i18n="process.s4.d"></p></div></div>
+          <div class="step reveal"><div class="marker">5</div><div class="c"><h4><span data-i18n="process.s5.t"></span> <span class="when" data-i18n="process.s5.w"></span></h4><p data-i18n="process.s5.d"></p></div></div>
+          <div class="step reveal"><div class="marker">6</div><div class="c"><h4><span data-i18n="process.s6.t"></span> <span class="when" data-i18n="process.s6.w"></span></h4><p data-i18n="process.s6.d"></p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CLB ================= -->
+    <section id="clb">
+      <div class="container">
+        <span class="eyebrow" data-i18n="clubs.eyebrow"></span>
+        <div class="section-head">
+          <h2 data-i18n="clubs.title"></h2>
+          <p data-i18n="clubs.sub"></p>
+        </div>
+        <div class="grid-3" id="clubsGrid"></div>
+      </div>
+    </section>
+
+    <!-- ================= HOẠT ĐỘNG ================= -->
+    <section id="hoat-dong" class="section-alt">
+      <div class="container">
+        <span class="eyebrow" data-i18n="act.eyebrow"></span>
+        <div class="section-head">
+          <h2 data-i18n="act.title"></h2>
+          <p data-i18n="act.sub"></p>
+        </div>
+        <div class="grid-3" id="actGrid"></div>
+      </div>
+    </section>
+
+    <!-- ================= HỘI ĐỒNG ================= -->
+    <section id="hoi-dong">
+      <div class="container">
+        <span class="eyebrow" data-i18n="council.eyebrow"></span>
+        <div class="section-head">
+          <h2 data-i18n="council.title"></h2>
+          <p data-i18n="council.sub"></p>
+        </div>
+        <div id="councilWrap"></div>
+      </div>
+    </section>
+
+    <!-- ================= ĐỐI TÁC ================= -->
+    <section id="doi-tac" class="section-alt">
+      <div class="container">
+        <span class="eyebrow" data-i18n="partners.eyebrow"></span>
+        <div class="section-head">
+          <h2 data-i18n="partners.title"></h2>
+          <p data-i18n="partners.sub"></p>
+        </div>
+        <div class="grid-2" id="partnersGrid"></div>
+      </div>
+    </section>
+
+    <!-- ================= LIÊN HỆ ================= -->
+    <section id="lien-he">
+      <div class="container">
+        <span class="eyebrow" data-i18n="contact.eyebrow"></span>
+        <div class="section-head"><h2 data-i18n="contact.title"></h2></div>
+        <div class="contact-wrap">
+          <div class="eligibility">
+            <h3 data-i18n="elig.h"></h3>
+            <ul>
+              <li data-i18n="elig.l1"></li>
+              <li data-i18n="elig.l2"></li>
+              <li data-i18n="elig.l3"></li>
+              <li data-i18n="elig.l4"></li>
+            </ul>
+            <div class="scope">
+              <div class="t" data-i18n="elig.scope.t"></div>
+              <p data-i18n="elig.scope.p"></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <h3 data-i18n="contact.h"></h3>
+            <p data-i18n="contact.p"></p>
+            <ul class="contact-list">
+              <li>
+                <span class="ic">@</span>
+                <div><div class="lbl" data-i18n="contact.email"></div><a class="val" id="cEmailLink" href="#"><span id="cEmail">clb.usac@gmail.com</span></a></div>
+              </li>
+              <li>
+                <span class="ic">f</span>
+                <div><div class="lbl" data-i18n="contact.fanpage.l"></div><a class="val" id="cFanpage" href="#" target="_blank" rel="noopener" data-i18n="contact.fanpage.v"></a></div>
+              </li>
+              <li id="rowZalo">
+                <span class="ic">Z</span>
+                <div><div class="lbl" data-i18n="contact.zalo.l"></div><span class="val" data-i18n="contact.zalo.v"></span></div>
+              </li>
+            </ul>
+            <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px">
+              <a class="btn btn-primary" id="heroProposal" href="#" target="_blank" rel="noopener" data-i18n="contact.btn1"></a>
+              <a class="btn btn-ghost" id="cEmailLink2" href="#" data-i18n="contact.btn2"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-brand">
+              <span data-logo-program data-style="width:46px;height:46px;object-fit:contain;border-radius:10px"><span class="bx">★</span></span>
+              <div>
+                <b style="font-family:var(--serif);font-size:1.1rem">Tiếp cận Bầu trời</b>
+                <div style="color:var(--muted);font-size:.82rem" data-i18n="footer.tagline"></div>
+              </div>
+            </div>
+            <p class="desc" data-i18n="footer.desc"></p>
+          </div>
+          <div>
+            <h5 data-i18n="footer.explore"></h5>
+            <ul>
+              <li><a href="#chuong-trinh" data-i18n="nav.program"></a></li>
+              <li><a href="#usac" data-i18n="nav.usac"></a></li>
+              <li><a href="#tham-gia" data-i18n="nav.process"></a></li>
+              <li><a href="#hoi-dong" data-i18n="nav.council"></a></li>
+            </ul>
+          </div>
+          <div>
+            <h5 data-i18n="footer.contact"></h5>
+            <ul>
+              <li><a id="footEmail" href="#" data-i18n="footer.l.email"></a></li>
+              <li><a id="footFanpage" href="#" target="_blank" rel="noopener" data-i18n="footer.l.fanpage"></a></li>
+              <li><a id="footProposal" href="#" target="_blank" rel="noopener" data-i18n="footer.l.proposal"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© <span id="year">2026</span> <span data-i18n="footer.copy"></span></span>
+          <span data-i18n="footer.rights"></span>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- ================= MODAL ẢNH ================= -->
+  <div class="modal" id="actModal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true">
+      <div class="mh">
+        <div><h3 id="mTitle">—</h3><div class="by" id="mBy">—</div></div>
+        <button class="close" id="mClose" aria-label="Close">✕</button>
+      </div>
+      <div class="mb">
+        <p class="s" id="mSummary">—</p>
+        <div class="modal-gallery" id="mGallery"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= SCRIPTS ================= -->
+  <script src="js/i18n.js"></script>
+  <script src="data/config.js"></script>
+  <script src="data/equipment.js"></script>
+  <script src="data/clubs.js"></script>
+  <script src="data/activities.js"></script>
+  <script src="data/council.js"></script>
+  <script src="data/partners.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

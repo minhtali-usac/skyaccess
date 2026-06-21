@@ -1,0 +1,3 @@
+# Logo đối tác / nhà tài trợ
+Đặt logo đối tác tại đây: `vaan.png`, `khoa-vatly.png`...
+Khai báo trong `data/partners.js` (trường `logo`).
