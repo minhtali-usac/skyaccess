@@ -1,5 +1,5 @@
 /* =====================================================================
-   HỘI ĐỒNG THẨM ĐỊNH HỒ SƠ (07 thành viên) — song ngữ
+   HỘI ĐỒNG THẨM ĐỊNH HỒ SƠ (09 thành viên) — song ngữ
    ---------------------------------------------------------------------
    - photo: ảnh chân dung trong assets/images/council/ ("" -> chữ cái đầu)
             Ảnh vuông (1:1) đẹp nhất. Đặt tên theo số thứ tự cho dễ quản lý.
@@ -13,65 +13,54 @@ window.DATA_COUNCIL = [
     title: { vi: "Cố vấn định hướng", en: "Strategic advisor" },
     role: { vi: "Chủ tịch Hội đồng", en: "Council Chair" },
     group: "noi-dung",
-    photo: "assets/images/council/01-vo-nguyen-nhat-minh.jpg",
+    photo: "assets/images/council/4.png",
     duty: {
       vi: "Chủ trì toàn bộ quá trình xét duyệt; đánh giá định hướng chiến lược, sức lan tỏa dài hạn; có quyền phủ quyết và phê duyệt cuối cùng.",
       en: "Chairs the entire review process; assesses strategic direction and long-term impact; holds veto power and final approval."
     }
   },
   {
-    name: "Đỗ Vũ Bảo Ngọc",
+    name: "Đặng Huỳnh Khánh Tân",
     title: { vi: "Chủ nhiệm CLB Thiên văn USAC", en: "President, USAC Astronomy Club" },
     role: { vi: "Phó Chủ tịch thứ nhất – Thư ký nội dung", en: "First Vice-Chair – Content Secretary" },
     group: "noi-dung",
-    photo: "assets/images/council/02-do-vu-bao-ngoc.jpg",
+    photo: "assets/images/council/6.png",
     duty: {
       vi: "Điều hành họp khi Chủ tịch vắng mặt; đại diện USAC ký kết MOU và biên bản bàn giao; chủ trì đánh giá chuyên môn thiên văn; đầu mối liên lạc với các CLB.",
       en: "Runs meetings in the Chair's absence; signs MOUs and handover records for USAC; leads astronomy expertise review; main liaison with the clubs."
     }
   },
   {
-    name: "Quách Hải Đăng",
+    name: "Đỗ Vũ Bảo Ngọc",
     title: { vi: "Cố vấn CLB Thiên văn USAC", en: "Advisor, USAC Astronomy Club" },
     role: { vi: "Phó Chủ tịch thứ hai – Thẩm định nội dung", en: "Second Vice-Chair – Content Review" },
     group: "noi-dung",
-    photo: "assets/images/council/03-quach-hai-dang.jpg",
+    photo: "assets/images/council/3.png",
     duty: {
       vi: "Độc lập đánh giá Proposal; phân tích chiều sâu kế hoạch hoạt động; xác minh tính chính xác của thông tin chuyên môn thiên văn.",
       en: "Independently reviews proposals; analyses the depth of activity plans; verifies the accuracy of astronomy content."
     }
   },
   {
-    name: "Đinh Đào Quốc Thịnh",
+    name: "Quách Hải Đăng",
     title: { vi: "Cố vấn Ban Kỹ thuật USAC", en: "Technical Board advisor, USAC" },
     role: { vi: "Ủy viên – Chuyên trách thẩm định kỹ thuật", en: "Member – Technical review specialist" },
     group: "noi-dung",
-    photo: "assets/images/council/04-dinh-dao-quoc-thinh.jpg",
+    photo: "assets/images/council/5.png",
     duty: {
-      vi: "Cố vấn chuyên sâu về quang học, thiên văn; thiết lập tiêu chuẩn đánh giá bảo quản & vận hành; tổ chức tập huấn cho CLB tiếp nhận.",
-      en: "Deep advisor on optics and astronomy; sets standards for storage and operation; runs training for receiving clubs."
+      vi: "Cố vấn chuyên sâu về thiết bị và thiên văn; thiết lập tiêu chuẩn đánh giá bảo quản & vận hành; tổ chức tập huấn cho CLB tiếp nhận.",
+      en: "Deep advisor on equipmets and astronomy; sets standards for storage and operation; runs training for receiving clubs."
     }
   },
   {
-    name: "Huỳnh Ngọc Thanh",
+    name: "Tôn Khải Minh",
     title: { vi: "Trưởng Ban Kỹ thuật", en: "Head of the Technical Board" },
     role: { vi: "Thư ký Hội đồng – Trưởng nhóm thẩm định kỹ thuật", en: "Council Secretary – Technical review lead" },
     group: "ky-thuat",
-    photo: "assets/images/council/05-huynh-ngoc-thanh.jpg",
+    photo: "assets/images/council/9.png",
     duty: {
       vi: "Lưu trữ biên bản, phiếu đánh giá; chủ trì thẩm định điều kiện bảo quản; lập hồ sơ kỹ thuật thiết bị trước mỗi lần bàn giao và hoàn trả.",
       en: "Keeps minutes and review records; leads storage-condition assessment; prepares technical records before each handover and return."
-    }
-  },
-  {
-    name: "Trần Hưng Thịnh",
-    title: { vi: "Phó Ban Kỹ thuật", en: "Deputy Head, Technical Board" },
-    role: { vi: "Ủy viên Kỹ thuật – Giám sát sau bàn giao", en: "Technical member – Post-handover monitoring" },
-    group: "ky-thuat",
-    photo: "assets/images/council/06-tran-hung-thinh.jpg",
-    duty: {
-      vi: "Thẩm định năng lực vận hành; tổng hợp thông tin sự kiện của CLB để lập báo cáo giám sát định kỳ; hỗ trợ kỹ thuật từ xa.",
-      en: "Assesses operating capacity; compiles club event data for periodic monitoring reports; provides remote technical support."
     }
   },
   {
@@ -79,7 +68,40 @@ window.DATA_COUNCIL = [
     title: { vi: "Phó Ban Kỹ thuật", en: "Deputy Head, Technical Board" },
     role: { vi: "Ủy viên Kỹ thuật – Giám sát sau bàn giao", en: "Technical member – Post-handover monitoring" },
     group: "ky-thuat",
-    photo: "assets/images/council/07-huynh-hung-lam.jpg",
+    photo: "assets/images/council/8.png",
+    duty: {
+      vi: "Thẩm định năng lực vận hành; tổng hợp thông tin sự kiện của CLB để lập báo cáo giám sát định kỳ; hỗ trợ kỹ thuật từ xa.",
+      en: "Assesses operating capacity; compiles club event data for periodic monitoring reports; provides remote technical support."
+    }
+  },
+  {
+    name: "Trần Hưng Thịnh",
+    title: { vi: "Phó Ban Kỹ thuật", en: "Deputy Head, Technical Board" },
+    role: { vi: "Ủy viên Kỹ thuật – Giám sát sau bàn giao", en: "Technical member – Post-handover monitoring" },
+    group: "ky-thuat",
+    photo: "assets/images/council/07.png",
+    duty: {
+      vi: "Thẩm định điều kiện bảo quản; cập nhật dữ liệu giám sát liên tục; hỗ trợ kỹ thuật tại chỗ trong các đợt bàn giao và tập huấn.",
+      en: "Assesses storage conditions; keeps monitoring data up to date; provides on-site technical support during handovers and training."
+    }
+  }
+   {
+    name: "Cao Nguyễn Bảo Trân",
+    title: { vi: "Phó Ban Kỹ thuật", en: "Deputy Head, Technical Board" },
+    role: { vi: "Ủy viên Kỹ thuật – Giám sát sau bàn giao", en: "Technical member – Post-handover monitoring" },
+    group: "ky-thuat",
+    photo: "assets/images/council/11.png",
+    duty: {
+      vi: "Thẩm định điều kiện bảo quản; cập nhật dữ liệu giám sát liên tục; hỗ trợ kỹ thuật tại chỗ trong các đợt bàn giao và tập huấn.",
+      en: "Assesses storage conditions; keeps monitoring data up to date; provides on-site technical support during handovers and training."
+    }
+  }
+   {
+    name: "Nguyễn Thành Nghĩa",
+    title: { vi: "Phó Ban Kỹ thuật", en: "Deputy Head, Technical Board" },
+    role: { vi: "Ủy viên Kỹ thuật – Giám sát sau bàn giao", en: "Technical member – Post-handover monitoring" },
+    group: "ky-thuat",
+    photo: "assets/images/council/10.png",
     duty: {
       vi: "Thẩm định điều kiện bảo quản; cập nhật dữ liệu giám sát liên tục; hỗ trợ kỹ thuật tại chỗ trong các đợt bàn giao và tập huấn.",
       en: "Assesses storage conditions; keeps monitoring data up to date; provides on-site technical support during handovers and training."

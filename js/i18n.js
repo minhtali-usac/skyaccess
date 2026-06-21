@@ -115,7 +115,7 @@ window.I18N = {
     "act.gallery.empty": "Ảnh hoạt động sẽ được cập nhật.",
 
     "council.eyebrow": "Hội đồng thẩm định hồ sơ",
-    "council.title": "Bảy thành viên đứng sau mỗi quyết định.",
+    "council.title": "Chín thành viên đứng sau mỗi quyết định.",
     "council.sub": "Hội đồng gồm 2 nhóm chức năng: Lãnh đạo & Nội dung, và Ban Kỹ thuật - đảm bảo mỗi Proposal được thẩm định cả về chuyên môn thiên văn lẫn năng lực vận hành thiết bị.",
     "council.g1": "Nhóm I - Lãnh đạo Hội đồng & Thẩm định Nội dung",
     "council.g2": "Nhóm II - Hội đồng Ban Kỹ thuật",
@@ -257,7 +257,7 @@ window.I18N = {
     "act.gallery.empty": "Photos will be added soon.",
 
     "council.eyebrow": "Proposal review council",
-    "council.title": "Seven members behind every decision.",
+    "council.title": "Nine members behind every decision.",
     "council.sub": "The council has two functional groups: Leadership & Content, and the Technical Board - ensuring each proposal is assessed for both astronomy expertise and equipment-handling capacity.",
     "council.g1": "Group I - Council Leadership & Content Review",
     "council.g2": "Group II - Technical Board",
