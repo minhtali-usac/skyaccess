@@ -29,7 +29,7 @@ window.DATA_COUNCIL = [
       vi: "Điều hành họp khi Chủ tịch vắng mặt; đại diện USAC ký kết MOU và biên bản bàn giao; chủ trì đánh giá chuyên môn thiên văn; đầu mối liên lạc với các CLB.",
       en: "Runs meetings in the Chair's absence; signs MOU and handover records for USAC; leads astronomy expertise review; main liaison with the clubs."
     }
-  },
+  }
   {
     name: "Đỗ Vũ Bảo Ngọc",
     title: { vi: "Cố vấn CLB Thiên văn USAC", en: "Advisor, USAC Astronomy Club" },
