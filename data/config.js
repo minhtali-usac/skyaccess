@@ -14,6 +14,6 @@ window.SITE_CONFIG = {
   instagram:"",
 
   // --- Link tải tài liệu (đặt file trong assets/docs/) ---
-  proposalUrl: "assets/docs/proposal-mau.pdf",   // Proposal mẫu (tải lên sau)
+  proposalUrl: "assets/docs/SkyAccess-Proposal-Mẫu.pdf",   // Proposal mẫu (tải lên sau)
   fullDocUrl:  "assets/docs/du-thao-chuong-trinh.pdf" // Bộ tài liệu đầy đủ
 };
