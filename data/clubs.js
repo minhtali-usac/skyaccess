@@ -9,26 +9,26 @@
 
 window.DATA_CLUBS = [
   {
-    name: { vi: "CLB Thiên văn THPT (Mẫu)", en: "High-School Astronomy Club (sample)" },
-    school: { vi: "Trường THPT Nguyễn Văn A", en: "Nguyen Van A High School" },
-    location: { vi: "TP. Hồ Chí Minh", en: "Ho Chi Minh City" },
-    logo: "assets/images/clubs/club-mau.png",
+    name: { vi: "CLB Thiên văn PAC", en: "PAC Astronomy Club" },
+    school: { vi: "Trường THPT Chuyên Huỳnh Mẫn Đạt", en: "Huynh Man Dat High School For The Gifted" },
+    location: { vi: "Tỉnh An Giang", en: "An Giang Province" },
+    logo: "assets/images/clubs/pac-club.jpg",
     status: "active",
     cycle: "2026 – 2027",
-    equipment: { vi: "Kính khúc xạ 70mm + chân đế", en: "70mm refractor + mount" },
+    equipment: { vi: "Kính phản xạ Dobson 100mm + Ống nhòm Celestron", en: "Dobsonian telescope 100mm + Celestron Binoscopes" },
     members: 24,
     note: { vi: "CLB đầu tiên tiếp nhận thiết bị trong chu kỳ thí điểm.", en: "First club to receive equipment in the pilot cycle." }
   },
   {
-    name: { vi: "CLB Khoa học – Thiên văn (Mẫu)", en: "Science – Astronomy Club (sample)" },
-    school: { vi: "Trường THPT Trần Thị B", en: "Tran Thi B High School" },
-    location: { vi: "Bình Dương", en: "Binh Duong" },
-    logo: "",
+    name: { vi: "CLB STEM", en: "STEM Club" },
+    school: { vi: "Trường Trung học Thực hành, Đại học Sư phạm TP. Hồ Chí Minh", en: "The Experimental High School, Ho Chi Minh City University of Education" },
+    location: { vi: "Thành phố Hồ Chí Minh", en: "Ho Chi Minh City" },
+    logo: "assets/images/clubs/stem-club.jpg",
     status: "active",
     cycle: "2026 – 2027",
-    equipment: { vi: "Kính phản xạ 114mm", en: "114mm reflector" },
+    equipment: { vi: "Kính phản xạ 114mm + Ống nhòm Celestron", en: "114mm reflector telescope + Celestron Binoscopes" },
     members: 31,
-    note: { vi: "Thiết lập Trạm quan sát vệ tinh USAC tại sân thượng nhà trường.", en: "Set up a USAC satellite observation station on the school rooftop." }
+    note: { vi: "Thiết lập Trạm quan sát vệ tinh USAC và phục vụ cho lan toả khoa học.", en: "Establish the USAC Satellite Observation Station and promote scientific dissemination" }
   }
   // , { ...thêm CLB mới ở đây... }
 ];

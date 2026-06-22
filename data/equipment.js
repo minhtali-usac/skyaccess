@@ -23,20 +23,20 @@ window.DATA_EQUIPMENT = [
   {
     name: { vi: "Kính thiên văn phản xạ", en: "Reflector telescope" },
     tag: "Reflector",
-    image: "assets/images/equipment/phan-xa.jpg",
+    image: "assets/images/equipment/phan-xa.webp",
     desc: {
-      vi: "Dùng gương cầu thu sáng. Cho khẩu độ lớn với chi phí hợp lý, quan sát tốt các thiên thể mờ như tinh vân, cụm sao.",
-      en: "Uses mirrors to gather light. Larger aperture at a reasonable cost — good for faint objects like nebulae and star clusters."
+      vi: "Dùng gương thu sáng. Cho khẩu độ lớn với chi phí hợp lý, quan sát tốt Mặt Trăng, các hành tinh.",
+      en: "Uses mirrors to gather light. Larger aperture at a reasonable cost — good for the Moon, planets"
     },
     specs: {
-      vi: ["Khẩu độ 100–150mm", "Thu sáng mạnh hơn cùng tầm giá", "Cần căn chỉnh trục quang định kỳ"],
+      vi: ["Khẩu độ 100–150mm", "Thu sáng mạnh hơn cùng tầm giá", "Cần chuẩn trực định kỳ"],
       en: ["Aperture 100–150mm", "More light-gathering per dollar", "Needs periodic optical alignment"]
     }
   },
   {
     name: { vi: "Kính Dobsonian", en: "Dobsonian telescope" },
     tag: "Dobsonian",
-    image: "assets/images/equipment/dobsonian.jpg",
+    image: "assets/images/equipment/dobsonian.png",
     desc: {
       vi: "Kính phản xạ đặt trên đế xoay đơn giản. Khẩu độ lớn, dễ ngắm, rất phù hợp cho các đêm quan sát đông người ngoài trời.",
       en: "A reflector on a simple rocker mount. Large aperture and intuitive aiming — perfect for crowded outdoor observation nights."
@@ -49,7 +49,7 @@ window.DATA_EQUIPMENT = [
   {
     name: { vi: "Ống nhòm thiên văn", en: "Astronomy binoculars" },
     tag: "Binoculars",
-    image: "assets/images/equipment/ong-nhom.jpg",
+    image: "assets/images/equipment/ong-nhom.webp",
     desc: {
       vi: "Lựa chọn khởi đầu nhẹ nhàng và linh hoạt. Trường nhìn rộng, dễ cầm tay, lý tưởng để ngắm Mặt Trăng, cụm sao và dải Ngân Hà cho nhóm đông.",
       en: "A light, flexible entry point. Wide field of view and easy to hold — ideal for the Moon, star clusters and the Milky Way with larger groups."
@@ -62,14 +62,14 @@ window.DATA_EQUIPMENT = [
   {
     name: { vi: "Phụ kiện đi kèm", en: "Accessories" },
     tag: "Accessories",
-    image: "assets/images/equipment/phu-kien.jpg",
+    image: "assets/images/equipment/phu-kien.png",
     desc: {
-      vi: "Bộ phụ kiện hỗ trợ quan sát: thị kính (eyepiece) nhiều tiêu cự, kính tìm, chân đế và hộp/túi bảo vệ chuyên dụng.",
-      en: "A support kit for observation: multiple eyepieces, a finder scope, a mount and a dedicated protective case."
+      vi: "Bộ phụ kiện hỗ trợ quan sát: thị kính (eyepiece) nhiều tiêu cự, chân đế.",
+      en: "A support kit for observation: multiple eyepieces,a mount."
     },
     specs: {
-      vi: ["Thị kính đa tiêu cự", "Kính tìm (finder scope)", "Chân đế & hộp bảo quản"],
-      en: ["Multiple eyepieces", "Finder scope", "Mount & storage case"]
+      vi: ["Thị kính đa tiêu cự", "Chân đế"],
+      en: ["Multiple eyepieces", "Mount"]
     }
   }
 ];
