@@ -16,7 +16,7 @@ window.DATA_CLUBS = [
     status: "active",
     cycle: "2026 – 2027",
     equipment: { vi: "Kính phản xạ Dobson 100mm + Ống nhòm Celestron", en: "Dobsonian telescope 100mm + Celestron Binoscopes" },
-    members: 24,
+    members: 20-30,
     note: { vi: "CLB đầu tiên tiếp nhận thiết bị trong chu kỳ thí điểm.", en: "First club to receive equipment in the pilot cycle." }
   },
   {
@@ -27,7 +27,7 @@ window.DATA_CLUBS = [
     status: "active",
     cycle: "2026 – 2027",
     equipment: { vi: "Kính phản xạ 114mm + Ống nhòm Celestron", en: "114mm reflector telescope + Celestron Binoscopes" },
-    members: 31,
+    members: 30-40,
     note: { vi: "Thiết lập Trạm quan sát vệ tinh USAC và phục vụ cho lan toả khoa học.", en: "Establish the USAC Satellite Observation Station and promote scientific dissemination" }
   }
   // , { ...thêm CLB mới ở đây... }

@@ -8,26 +8,16 @@
 
 window.DATA_ACTIVITIES = [
   {
-    title: { vi: "Đêm quan sát Trăng & Sao Mộc (Mẫu)", en: "Moon & Jupiter observation night (sample)" },
-    date: "15/09/2026",
-    club: { vi: "CLB Thiên văn THPT Nguyễn Văn A", en: "Nguyen Van A High-School Astronomy Club" },
-    cover: "assets/images/activities/dem-quan-sat-mau.jpg",
+    title: { vi: "Ký kết hợp tác CLB Thiên văn USAC và CLB STEM", en: "Partnership Agreement between USAC Astronomy Club and STEM Club" },
+    date: "21/06/2026",
+    club: { vi: "Câu lạc bộ STEM", en: "STEM Club" },
+    cover: "assets/images/activities/cover-usac-stem.jpg",
     summary: {
-      vi: "Buổi quan sát đầu tiên sau khi nhận thiết bị: hơn 120 học sinh lần đầu nhìn thấy các vành đai và vệ tinh của Sao Mộc qua kính.",
-      en: "The first session after receiving equipment: over 120 students saw Jupiter's bands and moons through a telescope for the first time."
+      vi: "Lễ ký kết biên bản hợp tác giữa CLB Thiên văn USAC và CLB STEM trường TH Thực hành ĐHSP Hồ Chí Minh, nhằm triển khai chương trình 'Tiếp cận Bầu trời'",
+      en: "Partnership agreement signing ceremony between the USAC Astronomy Club and the STEM Club of the High School of Education Science, to launch the 'Sky Access' program."
     },
-    gallery: ["assets/images/activities/dem-quan-sat-mau.jpg"]
+    gallery: ["assets/images/activities/gallery-stem-usac.jpg"]
   },
-  {
-    title: { vi: "Workshop căn chỉnh & sử dụng kính (Mẫu)", en: "Alignment & operation workshop (sample)" },
-    date: "02/10/2026",
-    club: { vi: "Ban Kỹ thuật USAC", en: "USAC Technical Board" },
-    cover: "assets/images/activities/workshop-mau.jpg",
-    summary: {
-      vi: "Tập huấn 4 giờ cho thành viên nòng cốt: lắp ráp, căn chỉnh trục, bảo quản và xử lý sự cố cơ bản.",
-      en: "A 4-hour training for core members: assembly, optical alignment, storage and basic troubleshooting."
-    },
-    gallery: []
-  }
+
   // , { ...thêm hoạt động mới ở đây... }
 ];

@@ -10,21 +10,21 @@ window.DATA_PARTNERS = [
   {
     name: { vi: "Mạng lưới Thiên văn Nghiệp dư Việt Nam (VAAN)", en: "Vietnam Amateur Astronomy Network (VAAN)" },
     kind: { vi: "Mạng lưới USAC tham gia", en: "Network USAC belongs to" },
-    logo: "assets/images/partners/vaan.png",
-    url: "",
+    logo: "assets/images/partners/vaan.jpg",
+    url: "https://www.facebook.com/profile.php?id=61565983640098",
     desc: {
       vi: "Mạng lưới thiên văn nghiệp dư toàn quốc mà USAC là thành viên. Trên nền tảng đó, USAC tự xây dựng mạng lưới hợp tác riêng với các CLB cấp THPT.",
       en: "The national amateur-astronomy network USAC is a member of. Building on it, USAC develops its own network of partnerships with high-school clubs."
     }
   },
   {
-    name: { vi: "Đơn vị đồng hành (Mẫu)", en: "Partner (sample)" },
-    kind: { vi: "Nhà tài trợ thiết bị", en: "Equipment sponsor" },
-    logo: "",
-    url: "",
+    name: { vi: "Câu lạc bộ Thiên văn Nghiệp dư TP Hồ Chí Minh HAAC)", en: "Ho Chi Minh Amateur Astronomy Club" },
+    kind: { vi: "Dơn vị tài trợ thiết bị", en: "Equipment sponsor" },
+    logo: "assets/images/partners/haac.png",
+    url: "https://www.facebook.com/vietastro.haac",
     desc: {
-      vi: "Khối thông tin mẫu cho nhà tài trợ thiết bị. Thay logo và mô tả khi có đối tác mới đồng hành cùng chương trình.",
-      en: "A sample block for an equipment sponsor. Replace the logo and description when a new partner joins the program."
+      vi: "Đơn vị tài trợ những kính thiên văn và ống nhòm để USAC triển khai chương trình.",
+      en: "Sponsors of the telescopes and binoculars for the USAC program."
     }
   }
 ];
