@@ -132,7 +132,7 @@ window.I18N = {
     "elig.l3": "Không gián đoạn hoạt động quá 1 học kỳ liên tiếp tính đến lúc nộp hồ sơ.",
     "elig.l4": "Cam kết hoạt động ít nhất 1 năm học kể từ khi nhận thiết bị.",
     "elig.scope.t": "Phạm vi ưu tiên",
-    "elig.scope.p": "Ưu tiên 1: TP.HCM, Bình Dương, Đồng Nai, Long An, Bà Rịa – Vũng Tàu. Ưu tiên 2: các tỉnh Nam Bộ. Mở rộng toàn quốc tùy nguồn lực & khả năng hỗ trợ kỹ thuật từ xa.",
+    "elig.scope.p": "Ưu tiên 1: Thành phố Hồ Chí Minh. Ưu tiên 2: các tỉnh Nam Bộ. Mở rộng toàn quốc tùy nguồn lực & khả năng hỗ trợ kỹ thuật từ xa.",
     "contact.h": "Gửi hồ sơ & liên hệ",
     "contact.p": "Tải Proposal mẫu, điền thông tin và gửi về email chính thức của chương trình.",
     "contact.email": "Email nộp hồ sơ",
@@ -141,7 +141,7 @@ window.I18N = {
     "contact.btn1": "Tải Proposal mẫu", "contact.btn2": "Gửi email",
 
     "footer.tagline": "Chương trình cho mượn thiết bị thiên văn",
-    "footer.desc": "CLB Thiên văn USAC - Khoa Vật lý – Vật lý Kỹ thuật, Trường ĐH Khoa học Tự nhiên, ĐHQG-HCM. Thành viên Mạng lưới Thiên văn Nghiệp dư Việt Nam (VAAN).",
+    "footer.desc": "CLB Thiên văn USAC - Khoa Vật lý – Vật lý Kỹ thuật, Trường ĐH Khoa học Tự nhiên, ĐHQG-HCM.",
     "footer.explore": "Khám phá",
     "footer.contact": "Liên hệ",
     "footer.l.email": "Email chương trình", "footer.l.fanpage": "Fanpage USAC", "footer.l.proposal": "Tải Proposal mẫu",
@@ -150,10 +150,10 @@ window.I18N = {
   },
 
   en: {
-    "doc.title": "Reaching the Sky - USAC Astronomy Club",
+    "doc.title": "Sky Access - USAC Astronomy Club",
     "lang.name": "English",
 
-    "chooser.title": "Welcome to<br><i>Reaching the Sky</i>",
+    "chooser.title": "Welcome to<br><i>Sky Access</i>",
     "chooser.sub": "Choose your language · Chọn ngôn ngữ để bắt đầu",
     "chooser.vi": "Tiếng Việt",
     "chooser.en": "English",
@@ -169,7 +169,7 @@ window.I18N = {
 
     "hero.tag": "Astronomy equipment lending program · 2026",
     "hero.title": 'Bringing telescopes to <span class="glow">every school</span>.',
-    "hero.lead": "The biggest barrier between students and the sky has never been curiosity - it is access. \"Reaching the Sky\" lends observation equipment to high-school science clubs through a transparent, accountable and sustainable model.",
+    "hero.lead": "The biggest barrier between students and the sky has never been curiosity - it is access. \"Sky Access\" lends observation equipment to high-school science clubs through a transparent, accountable and sustainable model.",
     "hero.cta1": "Apply for your club",
     "hero.cta2": "About the program",
     "hero.s1": "years of USAC activity",
@@ -181,7 +181,7 @@ window.I18N = {
     "manifesto.quote": "Science is most meaningful when anyone has the chance to experience it.",
     "manifesto.p1": "For many students, astronomy begins only on the page, in the classroom, or through videos online. They learn about the Moon, the planets and distant galaxies - yet rarely get to see them with their own eyes.",
     "manifesto.p2": "The barrier here has never been curiosity. The greatest barrier is <strong>access</strong>.",
-    "manifesto.p3": "At USAC, we believe material conditions should never decide who gets to explore the Universe. That belief sparked the \"Reaching the Sky\" program.",
+    "manifesto.p3": "At USAC, we believe material conditions should never decide who gets to explore the Universe. That belief sparked the \"Sky Access\" program.",
     "manifesto.p4": "To us, a telescope is not merely a tool. It is a door that opens onto curiosity. Rather than serving one fixed organization, each telescope can travel from one community to the next, accompanying countless observation nights and inspiring hundreds of students.",
     "manifesto.p5": "Because the future of astronomy is not shaped only inside observatories and research labs. It also begins in schoolyards, under open night skies - where a student looks through a telescope for the first time and realizes: the Universe is something they can explore for themselves.",
     "manifesto.tagline": "Widening the path. Sparking discovery.",
@@ -274,7 +274,7 @@ window.I18N = {
     "elig.l3": "No interruption of activity for more than one consecutive semester before applying.",
     "elig.l4": "Commit to at least one school year of activity after receiving equipment.",
     "elig.scope.t": "Priority scope",
-    "elig.scope.p": "Priority 1: HCMC, Binh Duong, Dong Nai, Long An, Ba Ria – Vung Tau. Priority 2: southern provinces. Nationwide as resources and remote technical support allow.",
+    "elig.scope.p": "Priority 1: Ho Chi Minh City. Priority 2: southern provinces. Nationwide as resources and remote technical support allow.",
     "contact.h": "Submit & contact",
     "contact.p": "Download the proposal template, fill it in and send it to the program's official email.",
     "contact.email": "Submission email",
@@ -283,11 +283,11 @@ window.I18N = {
     "contact.btn1": "Download proposal template", "contact.btn2": "Send email",
 
     "footer.tagline": "Astronomy equipment lending program",
-    "footer.desc": "USAC Astronomy Club - Faculty of Physics – Engineering Physics, University of Science, VNU-HCM. Member of the Vietnam Amateur Astronomy Network (VAAN).",
+    "footer.desc": "USAC Astronomy Club - Faculty of Physics – Engineering Physics, University of Science, VNU-HCM.",
     "footer.explore": "Explore",
     "footer.contact": "Contact",
     "footer.l.email": "Program email", "footer.l.fanpage": "USAC fanpage", "footer.l.proposal": "Proposal template",
-    "footer.copy": "USAC Astronomy Club · \"Reaching the Sky\" program.",
+    "footer.copy": "USAC Astronomy Club · \"Sky Access\" program.",
     "footer.rights": "Activity image rights belong to the clubs & USAC."
   }
 };

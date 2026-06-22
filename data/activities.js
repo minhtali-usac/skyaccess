@@ -13,10 +13,10 @@ window.DATA_ACTIVITIES = [
     club: { vi: "Câu lạc bộ STEM", en: "STEM Club" },
     cover: "assets/images/activities/cover-usac-stem.jpg",
     summary: {
-      vi: "Lễ ký kết biên bản hợp tác giữa CLB Thiên văn USAC và CLB STEM trường TH Thực hành ĐHSP Hồ Chí Minh, nhằm triển khai chương trình 'Tiếp cận Bầu trời'",
-      en: "Partnership agreement signing ceremony between the USAC Astronomy Club and the STEM Club of the High School of Education Science, to launch the 'Sky Access' program."
+      vi: "CLB Thiên văn USAC và CLB STEM trường TH Thực hành ĐHSP đã chính thức ký kết biên bản hợp tác triển khai chương trình 'Tiếp cận Bầu trời'. Theo thỏa thuận, USAC sẽ phối hợp thiết lập một trạm quan sát vệ tinh ngay tại CLB STEM. Đồng thời, nhằm tạo điều kiện thực hành cho học sinh, USAC sẽ cho mượn 01 kính thiên văn và 02 ống nhòm chuyên dụng để phục vụ các hoạt động và quan sát bầu trời.",
+      en: "The USAC Astronomy Club and the STEM Club of the High School of Education Science have officially signed a partnership agreement to launch the 'Sky Access' program. Under this agreement, USAC will collaborate to establish a satellite observation station at the STEM Club. Additionally, to facilitate practical learning for students, USAC will provide a loan of 01 telescope and 02 binoculars to support sky observation and research activities."
     },
-    gallery: ["assets/images/activities/gallery-stem-usac.jpg"]
+    gallery: ["assets/images/activities/gallery-stem-usac.jpg", "assets/images/activities/gallery-stem-usac1.jpg","assets/images/activities/gallery-stem-usac2.jpg"]
   },
 
   // , { ...thêm hoạt động mới ở đây... }
